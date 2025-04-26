@@ -1,0 +1,9 @@
+{
+  "name": "parker-bible-church-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/parker-bible-church-e2e/src",
+  "implicitDependencies": ["parker-bible-church"],
+  "// targets": "to see all targets run: nx show project parker-bible-church-e2e --web",
+  "targets": {}
+}
