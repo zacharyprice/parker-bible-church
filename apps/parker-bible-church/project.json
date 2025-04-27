@@ -23,5 +23,23 @@
         "spa": true
       }
     }
-  }
+  },
+  "assets": [
+    "apps/parker-bible-church/src/favicon.ico",
+    "apps/parker-bible-church/src/assets",
+    {
+      "glob": "**/*",
+      "input": "libs/assets/images",
+      "output": "assets/images"
+    },
+    {
+      "glob": "**/*",
+      "input": "libs/assets/fonts",
+      "output": "assets/fonts"
+    }
+  ],
+  "styles": [
+    "libs/styles/src/index.scss",
+    "apps/parker-bible-church/src/styles.scss"
+  ]
 }

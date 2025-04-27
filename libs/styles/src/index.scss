@@ -1,0 +1,11 @@
+// Base styles
+@import './lib/variables';
+@import './lib/colors';
+@import './lib/typography';
+@import './lib/mixins';
+@import './lib/reset';
+@import './lib/utilities';
+
+// Theme styles
+@import './lib/themes/light-theme';
+// @import './lib/themes/dark-theme';  // Uncomment to enable dark theme
